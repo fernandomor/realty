@@ -10,7 +10,7 @@ import {
 } from "@apollo/client";
 
 const client = new ApolloClient({
-  uri: 'http://localhost:1337/graphql',
+  uri: 'https://sleepy-tundra-87742.herokuapp.com/graphql',
   cache: new InMemoryCache()
 });
 ReactDOM.render(

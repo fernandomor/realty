@@ -1,2 +1,2 @@
-const SERVER_ROUTE = "http://localhost:1337"
+const SERVER_ROUTE = "https://sleepy-tundra-87742.herokuapp.com/"
 export default SERVER_ROUTE
