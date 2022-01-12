@@ -4,7 +4,6 @@ import { useMutation, useQuery } from '@apollo/client'
 import { GET_SINGLE } from '../GraphQL/query'
 import { useParams } from 'react-router'
 import { NEW_INTERESADO } from '../GraphQL/mutation'
-import SERVER_ROUTE_IMG from '../ulrimg'
 
 
 
@@ -63,12 +62,12 @@ export default function SinglePropiedad() {
                 price: `$ ${data.propiedades[0].precio.toLocaleString('en-US')}`,
                 ciudad : data.propiedades[0].ciudade.ciudad,
                 colonia : data.propiedades[0].colonia,
-                vendedorImg:  SERVER_ROUTE_IMG + data.propiedades[0].vendedor.foto.url,
+                vendedorImg: data.propiedades[0].vendedor.foto.url,
                 vendedorTel: data.propiedades[0].vendedor.telefono,
                 m2Construccion: data.propiedades[0].m2Construccion,
                 m2Terreno: data.propiedades[0].m2Terreno,
                 images: data.propiedades[0].img.map(e => {
-                    return { src: SERVER_ROUTE_IMG + e.url }
+                    return { src:e.url }
                 }),
                 description: `
                 <p>${data.propiedades[0].descripcion}</p>

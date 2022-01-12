@@ -3,7 +3,6 @@ import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router'
 import { Link } from 'react-router-dom'
 import { GET_BY_CATEGORY } from '../GraphQL/query'
-import SERVER_ROUTE_IMG from '../ulrimg'
 
 
 export default function PropiedadPorTipo() {
@@ -33,7 +32,7 @@ export default function PropiedadPorTipo() {
                     name: e.titulo,
                     price: "$" + e.precio.toLocaleString('en-US'),
                     sqMeter: e.m2Terreno,
-                    imageSrc: SERVER_ROUTE_IMG + e.img[0].url,
+                    imageSrc: e.img[0].url,
                     imageAlt: 'TODO',
                     habitaciones: e.habitaciones,
                     banos: e.banos,

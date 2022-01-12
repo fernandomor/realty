@@ -3,7 +3,6 @@ import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router'
 import { Link } from 'react-router-dom'
 import { GET_PROPERTY_BY_CITY_TYPE_CATEGORY } from '../GraphQL/query'
-import SERVER_ROUTE_IMG from '../ulrimg'
 
 
 export default function Resultado() {
@@ -26,6 +25,8 @@ ventaRenta: "",
         ciudad: " "
     }])
 
+    console.log(data)
+
     useEffect(() => {
         if (data !== undefined) {
             setProduct(data.propiedades.map(e => {
@@ -34,7 +35,7 @@ ventaRenta: "",
                     name: e.titulo,
                     price: "$" + e.precio.toLocaleString(),
                     sqMeter: e.m2Terreno,
-                    imageSrc: SERVER_ROUTE_IMG + e.img[0].url,
+                    imageSrc: e.img[0].url,
                     imageAlt: 'TODO',
                     habitaciones: e.habitaciones,
                     banos: e.banos,
