@@ -20,42 +20,29 @@ export default function Iron() {
                   Franquicia Iron
                 </h3>
                 <p className="mt-8 text-lg text-gray-500">
-                  Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique
-                  pellentesque. Blandit amet, sed aenean erat arcu morbi.
+                Podrás ser tu propio jefe o podrás compartir inmobiliaria con un socio y lo mejor es que sin necesidad de tener oficina abierta al público.
                 </p>
                 <div className="mt-5 prose prose-indigo text-gray-500">
                   <p>
-                    Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget
-                    pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna.
+                  Cuota inicial de $60,000.00 MXN más iva
                   </p>
                   <p>
-                    Bibendum eu nulla feugiat justo, elit adipiscing. Ut tristique sit nisi lorem pulvinar. Urna, laoreet
-                    fusce nibh leo. Dictum et et et sit. Faucibus sed non gravida lectus dignissim imperdiet a.
+                  Royalty mensual*
                   </p>
                   <p>
-                    Dictum magnis risus phasellus vitae quam morbi. Quis lorem lorem arcu, metus, egestas netus cursus. In.
+                  Duración de franquicia por 5 años
                   </p>
-                  <ul >
-                    <li>Quis elit egestas venenatis mattis dignissim.</li>
-                    <li>Cras cras lobortis vitae vivamus ultricies facilisis tempus.</li>
-                    <li>Orci in sit morbi dignissim metus diam arcu pretium.</li>
-                  </ul>
+                 
                   <p>
-                    Rhoncus nisl, libero egestas diam fermentum dui. At quis tincidunt vel ultricies. Vulputate aliquet
-                    velit faucibus semper. Pellentesque in venenatis vestibulum consectetur nibh id. In id ut tempus
-                    egestas. Enim sit aliquam nec, a. Morbi enim fermentum lacus in. Viverra.
-                  </p>
-                  <h3>How we’re different</h3>
-                  <p>
-                    Tincidunt integer commodo, cursus etiam aliquam neque, et. Consectetur pretium in volutpat, diam.
-                    Montes, magna cursus nulla feugiat dignissim id lobortis amet. Laoreet sem est phasellus eu proin massa,
-                    lectus. Diam rutrum posuere donec ultricies non morbi. Mi a platea auctor mi.
+                  Sin oficina y hasta 2 personas por franquicia
                   </p>
                   <p>
-                    Mauris ullamcorper imperdiet nec egestas mi quis quam ante vulputate. Vel faucibus adipiscing lacus,
-                    eget. Nunc fermentum id tellus donec. Ut metus odio sit sit varius non nunc orci. Eu, mi neque, ornare
-                    suspendisse amet, nibh. Facilisi volutpat lectus id sapien dis mauris rhoncus. Est rhoncus, interdum
-                    imperdiet ac eros, diam mauris, tortor. Risus id sit molestie magna.
+                  12 meses sin intereses (con tarjetas
+participantes)aplican restricciones
+                  </p>
+                  <p>
+                  Garantía de satisfacción (si en 9 meses no obtienes tu retorno de inversión te
+reembolsamos tu dinero) aplican restricciones
                   </p>
                 </div>
               </div>

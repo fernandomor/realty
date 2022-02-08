@@ -298,7 +298,7 @@ export default function Home() {
                                     Contáctanos y nosotros nos encargamos de venderla en nuestra red a nivel mundial.
                                 </p>
                                 <a
-                                    href="https://api.whatsapp.com/send?phone=5218110686566&text=Me%20gustar%C3%ADa%20vender%20una%20propiedad%20con%20ustedes%2C%20los%20encontr%C3%A9%20por%20su%20p%C3%A1gina%20web"
+                                    href="https://api.whatsapp.com/send?phone=5213324949933&text=Me%20gustar%C3%ADa%20vender%20una%20propiedad%20con%20ustedes%2C%20los%20encontr%C3%A9%20por%20su%20p%C3%A1gina%20web"
                                     className="mt-8 w-full block bg-white border border-transparent rounded-md py-3 px-8 text-base font-medium text-gray-900 hover:bg-gray-100 sm:w-auto"
                                 >
                                     Contactar ventas
@@ -361,7 +361,7 @@ export default function Home() {
                                     Se trata de uno de los mejores negocios con poca inversión y ¡alta rentabilidad! Está basado en métodos que funcionan con resultados garantizados.
                                 </p>
                                 <a
-                                    href="https://api.whatsapp.com/send?phone=5218110686566&text=Me%20interesa%20las%20franquicias%20inmobiliarias%2C%20vi%20su%20informaci%C3%B3n%20en%20la%20p%C3%A1gina%20y%20quisiera%20saber%20m%C3%A1s"
+                                    href="https://api.whatsapp.com/send?phone=5213324949933&text=Me%20interesa%20las%20franquicias%20inmobiliarias%2C%20vi%20su%20informaci%C3%B3n%20en%20la%20p%C3%A1gina%20y%20quisiera%20saber%20m%C3%A1s"
                                     className="mt-8 w-full block bg-white border border-transparent rounded-md py-3 px-8 text-base font-medium text-gray-900 hover:bg-gray-100 sm:w-auto"
                                 >
                                     Conocer más

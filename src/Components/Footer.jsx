@@ -4,7 +4,9 @@ import React from 'react'
 const footerNavigation = {
     shop: [
         { name: 'Iron', href: '/franquicia/iron' },
-        { name: 'Quartz', href: '/franquicia/quartz' }
+        { name: 'Quartz', href: '/franquicia/quartz' },
+        { name: 'Realty plus', href:'https://realty-plus.org'},
+        { name: 'Propiedades globales', href:'https://www.realty-plus.es'}
     ],
     company: [
         { name: 'Casa', href: '/tipoPropiedad/casa' },
